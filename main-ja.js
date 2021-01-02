@@ -9,9 +9,9 @@ function randomValueFromArray(array){
 }
 
 let storyText = '気温 94 fahrenheit 度で外は寒かった。:insertx:は出かけた。:inserty:に着いた。:insertz:.。体重300 poundsの:insertx:には驚いたが、Bob は驚かなかった。:inserty:ではよくあることだった。';
-let insertX = ['Willy the Goblin','Big Daddy','Father Christmas'];
-let insertY = ['the soup kitchen','Disneyland','the White House'];
-let insertZ = ['spontaneously combusted','melted into a puddle on the sidewalk','turned into a slug and crawled away'];
+let insertX = ['佐藤健','中村倫也','吉沢亮'];
+let insertY = ['お台場','ディズニーランド','箱根'];
+let insertZ = ['混雑していた','空いていた','賑わっていた'];
 
 randomize.addEventListener('click', result);
 
@@ -36,8 +36,8 @@ function result() {
   if(document.getElementById("uk").checked) {
     const weight = Math.round(300*0.0714286) + ' stone';
     const temperature =  Math.round((94-32) * 5 / 9) + ' centigrade';
-    newStory = newStory.replace('94 fahrenheit',temperature);
-    newStory = newStory.replace('300 pounds',weight);
+    newStory = newStory.replace('94 fahrenheit',気温);
+    newStory = newStory.replace('300 pounds',kg);
   }
 
   story.textContent = newStory;
