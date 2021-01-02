@@ -9,7 +9,7 @@ function randomValueFromArray(array){
 }
 
 
-let storyText = '気温20度で快晴、外出するには最適な日であった。なので:insertx:は:inserty:に行った。そこには:insertz:が偶然居たのでかなり驚いた。 Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
+let storyText = '気温20度で快晴、外出するには最適な日であった。なので:insertx:は:inserty:に行った。そこには:insertz:が偶然居たのでかなり驚いた:name: saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
 let insertX = ['Willy the Goblin','Big Daddy','Father Christmas'];
 let insertY = ['the soup kitchen','Disneyland','the White House'];
 let insertZ = ['spontaneously combusted','melted into a puddle on the sidewalk','turned into a slug and crawled away'];
